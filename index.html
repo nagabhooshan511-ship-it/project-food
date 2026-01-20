@@ -2,58 +2,61 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Foodie Online</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <div class="container">
-      <h1>Foodie Online</h1>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="menu.html">Menu</a>
-        <a href="order.html">Order</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
 
-  <section class="hero">
-    <img src="images/hero.jpg" alt="Delicious food">
-    <div class="hero-text">
-      <h2>Delicious food delivered fast!</h2>
-      <a href="menu.html" class="btn">Explore Menu</a>
-    </div>
-  </section>
+<!-- NAVBAR -->
+<header class="navbar">
+  <h1 class="logo">Foodie</h1>
+  <nav>
+    <a href="menu.html">Menu</a>
+    <a href="cart.html">Cart</a>
+    <a href="#">Login</a>
+  </nav>
+</header>
 
-  <section class="specials container">
-    <h2>Our Specials</h2>
-    <div class="cards">
-      <div class="card">
-        <img src="images/pizza.jpg" alt="Pizza">
-        <h3>Pizza</h3>
-        <p>Cheesy, delicious pizza made fresh daily.</p>
-        <p class="price">$12</p>
-      </div>
-      <div class="card">
-        <img src="images/burger.jpg" alt="Burger">
-        <h3>Burger</h3>
-        <p>Juicy burgers with fresh toppings.</p>
-        <p class="price">$8</p>
-      </div>
-      <div class="card">
-        <img src="images/icecream.jpg" alt="Ice Cream">
-        <h3>Ice Cream</h3>
-        <p>Sweet and creamy desserts to finish your meal.</p>
-        <p class="price">$4</p>
-      </div>
-    </div>
-  </section>
+<!-- HERO SECTION -->
+<section class="hero">
+  <div class="hero-content">
+    <h2>Order food online in your city</h2>
+    <p>Fast delivery • Best restaurants • Great offers</p>
 
-  <footer>
-    <p>&copy; 2026 Foodie Online. All Rights Reserved.</p>
-  </footer>
+    <div class="search-box">
+      <input type="text" placeholder="Enter your location">
+      <input type="text" placeholder="Search for food or restaurant">
+      <button>Search</button>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services">
+  <div class="service-card">
+    <img src="images/pizza.jpg">
+    <h3>Order Online</h3>
+    <p>Stay home and order to your doorstep</p>
+  </div>
+
+  <div class="service-card">
+    <img src="images/burger.jpg">
+    <h3>Dining</h3>
+    <p>View restaurant details & menus</p>
+  </div>
+
+  <div class="service-card">
+    <img src="images/icecream.jpg">
+    <h3>Nightlife</h3>
+    <p>Explore cafes & desserts nearby</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Foodie Online</p>
+</footer>
+
 </body>
 </html>
 
